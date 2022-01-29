@@ -1,4 +1,7 @@
-
+.user-select {
+    width: 300px;
+    margin: 30px;
+}
 
 .loc-select {
     display: flex;
@@ -6,13 +9,13 @@
     align-items: center;
     flex-wrap:wrap;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    margin: 10px;
-    margin-left: 30px;
+    margin: 5px;
     width: 40%;
 }
 
@@ -63,6 +66,20 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+    .options {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .image {
+        width: 50%;
+    }
+
+    .user-select {
+        margin-left: auto;
+    }
+
     .result-table {
         max-width: 500px;
     }

@@ -1,0 +1,26 @@
+
+.content {
+    overflow: hidden;
+}
+
+
+.about-text {
+    padding: 20px;
+}
+
+.about-text p:first-of-type {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 900px) {
+    .image {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .image img {
+        max-width: 600px;
+    }
+}

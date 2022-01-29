@@ -45,6 +45,7 @@ h1 {
 
 .content {
     margin: 10px;
+    max-width: 100%
 }
 
 .page-title {
@@ -90,7 +91,7 @@ h1 {
 
 
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 900px) {
     .nav-item {
         margin: 10px 20px;
     }

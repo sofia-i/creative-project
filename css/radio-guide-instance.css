@@ -1,0 +1,7 @@
+.stack {
+    display: block;
+}
+
+.stack-item a {
+    margin: 0 5px;
+}

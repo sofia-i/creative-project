@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: #FAF3F0;
+}
+
+.page-title {
+    background-color: #1A1423;
+    color: #d6d0d0;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Menu */
+.bg-light {
+    background-color: #774C60 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.2em;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+
+
+/* End Menu */
+
+.content {
+    margin: 10px;
+}
+
+.page-title {
+    font-family: 'gill sans';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.small-title {
+    max-width: 100px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 2px solid #08415C;
+    border-top: 1.5px solid #08415C;
+    overflow:hidden;
+}
+.footer img {
+    width: 50px;
+    margin: 5px;
+}
+.footer a:link {
+    color: #759AAB;
+}
+.footer a:visited {
+    color: #08415C;
+}
+.footer a:hover {
+    color: #222;
+}
+.footer-item {
+    margin: 0 10px;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .nav-item {
+        margin: 10px 20px;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .nav-item:last-of-type {
+        margin-left: auto;
+    }
+}

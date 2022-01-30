@@ -34,7 +34,10 @@
     display: block;
 }
 .results {
-    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
 .results p {
@@ -47,14 +50,17 @@
 
 .result-table {
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 1px dashed #000;
 }
 
 .result-item {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 200px;
     margin-bottom: 5px;
 }
 .result-num {
@@ -70,18 +76,26 @@
         display: flex;
         flex-direction: row;
         align-items:center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .image {
         width: 50%;
+        order: 1;
     }
 
     .user-select {
-        margin-left: auto;
+        order: 2;
+    }
+
+    .results {
+        max-width: 600px;
+        margin-left: 30px;
+        margin: 0 auto;
     }
 
     .result-table {
         max-width: 500px;
+        
     }
     /*
     .result-item {

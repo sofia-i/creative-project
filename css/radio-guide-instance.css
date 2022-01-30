@@ -1,7 +1,32 @@
-.stack {
+.content {
     display: block;
+}
+
+.stack {
+    /* display: block; */
 }
 
 .stack-item a {
     margin: 0 5px;
+}
+
+.guide {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.guide-image img {
+    max-height: 600px;
+    padding-right: 40px;
+}
+
+.guide-categ {
+    margin-bottom: 10px;
+}
+
+.guide-categ-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
 }

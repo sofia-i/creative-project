@@ -1,3 +1,5 @@
+
+
 .user-select {
     width: 300px;
     margin: 30px;
@@ -33,6 +35,7 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .results {
     text-align: center;
     display: flex;
@@ -69,6 +72,17 @@
 .result-name {
     flex: 2;
 }  
+
+.wrapper {
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px;
+}
+
+#state-names {
+    width: 150px;
+}
 
 /* Desktop Styles */
 @media only screen and (min-width: 900px) {

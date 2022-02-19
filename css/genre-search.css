@@ -84,6 +84,10 @@
     width: 150px;
 }
 
+#select-repsonse {
+    display: none;
+}
+
 /* Desktop Styles */
 @media only screen and (min-width: 900px) {
     .options {

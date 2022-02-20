@@ -25,6 +25,34 @@ h1 {
     text-align: center;
 }
 
+/* Dropdown menu used in Genre Search and Radio Guide */
+.wrapper {
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px;
+}
+#submit {
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+#submit:hover {
+    background-color: #e2e2e2;
+}
+#submit:active {
+    background-color: #c5c5c5;
+}
+.submit {
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+.submit:hover {
+    background-color: #e2e2e2;
+}
+.submit:active {
+    background-color: #c5c5c5;
+}
+
 /* Menu */
 .bg-light {
     background-color: #774C60 !important;

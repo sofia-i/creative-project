@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Discover a Station: Radio Station Finder</title>
+    <link rel='stylesheet' href='/css/styles.css'/>
+    <link rel='stylesheet' href='/css/discover.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="nbar-div"></div>
+
+    <div class='page-title'>
+      <h1>Discover a Station</h1>
+    </div>
+
+
+    <div class='content'>
+        <div class="discover-description">
+            <h4>Tell us what you're looking for and we'll help you discover a new station to listen to.</h4>
+            <h6>Select a genre or state, and we'll suggest a station for you to listen to. If you're feeling adventurous,
+                try the foreign language option and we'll give you a station in a language other than English.
+            </h6>
+        </div>
+      
+        <div class="select-and-image">
+            <div class="selection">
+                <div id="select-a-way">
+                    <h3>Select a way to discover:</h3>
+                    <div class="select-way wrapper">
+                        <select name="way-names" id="way-names">
+                                <option value="Select from the options:">Select from the options:</option>
+                            <option value="State Selection">State Selection</option>
+                            <option value="Genre Selection">Genre Selection</option>
+                            <option value="Foreign Language">Foreign Language</option>
+                        </select>
+                        <button id="submit" type="button">Submit</button>
+                    </div>
+                    
+                </div>
+                
+            
+        
+            <div id='state-selection'>
+                <h3>Select a state:</h3>
+                <div class="selection">
+                    <div class="st-select wrapper">
+                        <select name="state-names" id="state-names">
+                            <option value="States:">Select a State:</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New York">New York</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        </select>
+                        <button class="submit" id="submit-state" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id='genre-selection'>
+                <h4>Select Genre:</h4>
+        
+                <div class="gen-select wrapper">
+                    <select name="genre-names" id="genre-names">
+                        <option name="Genres:">Select a Genre:</option>
+                        <option name="Pop">Pop</option>
+                        <option name="Classical">Classical</option>
+                        <option name="Country">Country</option>
+                        <option name="Alternative">Alternative</option>
+                        <option name="Rock">Rock</option>
+                    </select>
+                    <button class="submit" id="submit-genre" type="button">Submit</button>
+                </div>
+                <div id="genre-response"></div>
+            </div>
+
+            <div id='language-selection'>
+
+            </div>
+            <div id="results"></div>
+
+            </div>
+            
+            <div class='state-image'><img src='/images/headphones-pink.png'/></div>
+        </div>
+
+
+        
+
+
+
+    </div>
+
+
+
+    <div class="footer">
+      <div class='icon'><img src='/images/radio-logo.png'/></div>
+      <div class='footer-item'><a href='https://github.com/sofia-i/creative-project'>Github</a></a></div>
+    </div>
+
+    <script src="/scripts/navbar.js" type="text/javascript"></script>
+    <script src="/scripts/discover.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

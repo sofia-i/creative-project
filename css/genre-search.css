@@ -77,12 +77,7 @@
     flex: 2;
 }  
 
-.wrapper {
-    max-height: 150px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 150px;
-}
+
 
 #state-names {
     width: 150px;
@@ -113,16 +108,7 @@
     border: 2px solid;
 }
 
-#submit {
-    padding: 2px 7px;
-}
 
-#submit:hover {
-    background-color: #e2e2e2;
-}
-#submit:active {
-    background-color: #c5c5c5;
-}
 
 .no-results {
     text-align: center;
@@ -145,7 +131,7 @@
         order: 2;
     }
 
-    .results {
+    #results {
         max-width: 600px;
         margin-left: 30px;
         margin: 0 auto;

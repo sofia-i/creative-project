@@ -6,12 +6,12 @@ function loadResults(e) {
     let selectState = document.getElementById("state-names");
     var state = selectState.options[selectState.selectedIndex].text;
     let lstate = state.toLowerCase();
-    console.log(state);
+    //console.log(state);
 
     let selectGenre = document.getElementById("genre-names");
     var genre = selectGenre.options[selectGenre.selectedIndex].text;
     let lgenre = genre.toLowerCase();
-    console.log(genre);
+    //console.log(genre);
 
     let response = document.getElementById("select-response");
     response.innerHTML = "";
